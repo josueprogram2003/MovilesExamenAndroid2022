@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@drawable/border"
+    android:layout_margin="5dp"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/tv_libro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Libro: "
+        android:textColor="@color/colorTextList"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_autor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Autor:"
+        android:textColor="@color/colorTextList"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_paginas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Páginas"
+        android:textColor="@color/colorTextList"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_editorial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Editorial:"
+        android:textColor="@color/colorTextList"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+</LinearLayout>
